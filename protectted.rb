@@ -1,18 +1,18 @@
 class Person
-  protected
-   def food
+  def food
     puts "protected member acccess"
-   end
   end
+end
 
-  class Man<Person
-    def anmal
-      food
-      puts "private method access"
-    end
+class Man<Person
+  def animal
+    food
+    puts "private method access"
   end
-  ob=Man.new
-  ob.anmal
+end
+
+ob=Man.new
+ob.animal
 
 
   
