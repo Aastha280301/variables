@@ -3,6 +3,6 @@ def first
 end
 def second
     first
-    puts"second"
+    puts"second method"
 end
 second
